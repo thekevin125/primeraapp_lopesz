@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Juegos">
+
+    <TextView
+        android:id="@+id/juegos"
+
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="50dp"
+        android:text="Cual es apple?"
+        android:textSize="40dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        >
+
+        <ImageButton
+            android:id="@+id/bntApple"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/manzana"
+            android:layout_marginRight="45dp"/>
+        <ImageButton
+            android:id="@+id/bntFresa"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/fresas"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:id="@+id/bntPina"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/pina"
+            android:layout_marginRight="45dp"/>
+        <ImageButton
+            android:id="@+id/bntBanano"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ba"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

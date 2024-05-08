@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo1"
+        android:textSize="50sp"
+        android:textColor="@color/blueee"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-condensed-light"
+        android:layout_margin="50dp"/>
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="361dp"
+        android:layout_height="338dp"
+        android:layout_gravity="center"
+        android:src="@drawable/mt09" />
+
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="@string/tituloboton" />
+
+    <ImageView
+        android:id="@+id/whasap"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+
+        android:src="@drawable/whatsapp" />
+
+
+    <ImageView
+        android:id="@+id/gmail"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:src="@drawable/gmail" />
+
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">lopezz</string>
+
+    <string name="titulo1">App Ingles</string>
+    <string name="tituloboton">Siguiente</string>
+    <string name="titulomenu">Menu</string>
+    <string name="titulomoto">Motos</string>
+    <string name="titulonombre">MT 09</string>
+    <string name="btncolores">Colores</string>
+    <string name="btnanimales">Animales</string>
+    <string name="btnfrutas">Frutas</string>
+    <string name="gato">Gato</string>
+    <string name="vaca">Vaca</string>
+    <string name="perro">Perro</string>
+    <string name="red">red</string>
+    <string name="blue">blue</string>
+    <string name="black">black</string>
+    <string name="piña">pineapple</string>
+    <string name="manzana">apple</string>
+    <string name="fresas">strawberry</string>
+    <string name="escribe">Como se escribe piña en ingles?</string>
+    <string name="escucha">Escucha el audio y seleccione la respuesta correcta</string>
+</resources>

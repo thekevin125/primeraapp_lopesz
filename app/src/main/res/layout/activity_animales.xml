@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Animales"    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/btnanimales"
+        android:textSize="50sp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="25dp">
+
+        <ImageView
+
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/gato" />
+        <Button
+            android:id="@+id/bntCat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/gato"
+            android:backgroundTint="@color/gray"
+            android:layout_marginLeft="50dp"
+            android:textSize="30dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="25dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/vaca" />
+        <Button
+            android:id="@+id/bntCow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/vaca"
+            android:backgroundTint="@color/gray"
+            android:layout_marginLeft="50dp"
+            android:textSize="30dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="25dp">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/dog"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"/>
+        <Button
+            android:id="@+id/bntDog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/perro"
+            android:backgroundTint="@color/gray"
+            android:layout_marginLeft="50dp"
+            android:textSize="30dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
